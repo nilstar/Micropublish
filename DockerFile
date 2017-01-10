@@ -1,7 +1,7 @@
 FROM mono
 
-ADD HelloWorld.cs HelloWorld.cs
+ADD DemoDocker.cs DemoDocker.cs
 
-RUN mcs HelloWorld.cs
+RUN mcs DemoDocker.cs
 
-CMD mono HelloWorld.exe
+CMD mono DemoDocker.exe
